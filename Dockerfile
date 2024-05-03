@@ -1,4 +1,4 @@
-FROM gberube/aio:private-aio
+FROM gberube/aio:aio-docker-img
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
